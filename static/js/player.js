@@ -122,7 +122,7 @@ var MacPlayer = {
                 this.PlayFrom = 'parse'
             }
         }
-        this.Path = maccms.path + '/static/player/';
+        this.Path =  '//cdn.jsdelivr.net/gh/speadk888/maccms/static/player/';
         if (this.Flag == "down") {
             MacPlayer.Down()
         } else {
